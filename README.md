@@ -2,7 +2,7 @@
 Estudo sobre terraform utilizando cloud AWS. Neste POC construo scripts passo a passo.
 
 O que é Terraform
-É uma ferramenta para construir, alterar e criar versões de infraestrutura através de código declarativo
+- É uma ferramenta para construir, alterar e criar versões de infraestrutura através de código declarativo
 
 Principais Características :
 - IaC
