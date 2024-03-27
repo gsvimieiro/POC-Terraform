@@ -24,5 +24,6 @@ Tarefas :
 
   - Rodar o primeiro script .tf
       - terraform init
-      - 
+      - terraform plan
+      - terraform apply
 
