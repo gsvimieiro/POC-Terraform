@@ -18,4 +18,7 @@ Tarefas :
 - Criar usuário AWS OK
 - Baixar o AWS CLI e configurar de acordo com o Access Key e o Secret Key OK
 - Primeiro Script para criação do Bucket AWS
-  
+
+
+  ![image](https://github.com/gsvimieiro/POC-Terraform/assets/25323854/5d34c2a5-f682-4595-814e-c400c45336f2)
+
