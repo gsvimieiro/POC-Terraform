@@ -27,3 +27,11 @@ Tarefas :
       - terraform plan
       - terraform apply
 
+Bucket criado
+![image](https://github.com/gsvimieiro/POC-Terraform/assets/25323854/37b71dab-0748-4765-9760-3923ef1bda77)
+
+Tags 
+
+![image](https://github.com/gsvimieiro/POC-Terraform/assets/25323854/be6f2e2a-3660-4b32-8228-0bec0140ec5d)
+
+
