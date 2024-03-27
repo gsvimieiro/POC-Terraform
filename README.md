@@ -11,3 +11,11 @@ Principais Características :
 - Idempotente (pode ser aplicado várias vezes que o resultado final vai ser o mesmo)
 - Planos de execução
 - Hibrido (aceito em várias Clouds)
+
+Tarefas :
+
+- Criar uma conta na AWS OK
+- Criar usuário AWS OK
+- Baixar o AWS CLI e configurar de acordo com o Access Key e o Secret Key OK
+- Primeiro Script para criação do Bucket AWS
+  
