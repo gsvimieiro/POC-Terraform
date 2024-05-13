@@ -70,14 +70,7 @@ Principais comandos Terraform ou observações :
 
 Exemplo arquivo backend :
 
-  terraform {
-  backend "s3" {
-    bucket         = "myorg-terraform-states"
-    key            = "myapp/production/tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "TableName"
-    }
-  }
+![image](https://github.com/gsvimieiro/POC-Terraform/assets/25323854/263b8dc1-dd98-473b-a191-361f1f4fac06)
 
 
 
