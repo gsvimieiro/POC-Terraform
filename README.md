@@ -35,7 +35,21 @@ Tags
 ![image](https://github.com/gsvimieiro/POC-Terraform/assets/25323854/be6f2e2a-3660-4b32-8228-0bec0140ec5d)
 
 
-Principais comandos Terraform :
+Principais comandos Terraform ou observações :
+
+- Baixar o terraform (melhor baixar o binário dele), unzip no arquivo depois copiar para o executável para o diretorio /usr/local/bin - sudo mv terraform /usr/local/bin (isso no Linux)
+
+- Digitar o comando terraform -install-autocomplete (ele autocompleta com os principais comandos do terraform no Terminal)
+
+- Como estou utilizando o Provider AWS criar uma conta exclusiva para o Terraform
+    - Ao criar esta conta, crie com acesso "programaático" pois será utilzado o AWS CLI e o terraform utiliza programação declarativa.
+
+
+
+
+
+
+
 
 
 
