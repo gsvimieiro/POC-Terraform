@@ -61,7 +61,10 @@ Principais comandos Terraform ou observações :
 
 - Boa prática é criar o arquivo terraform.tfvars (arquivo de variáveis), este arquivo funciona junto com o variables.tf (arquivo de declaração de variáveis)
 
-- 
+- Para variáveis tipo password, boa prática é declarar no arquivo de variables.tf definir um recurso sensitive = True na variável, isso significa que ele irá pedir que digite
+    o valor da variável todas as vezes que executar os comandos plain ou apply
+
+
 
 
 
