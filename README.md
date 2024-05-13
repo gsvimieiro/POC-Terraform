@@ -68,9 +68,12 @@ Principais comandos Terraform ou observações :
     - Centraliza o arquivo state (coração do Terraform) em um único repositório
     - Cria-se um bucket no S3
 
-Exemplo arquivo backend :
+Exemplos arquivos backend :
 
 ![image](https://github.com/gsvimieiro/POC-Terraform/assets/25323854/263b8dc1-dd98-473b-a191-361f1f4fac06)
+
+![image](https://github.com/gsvimieiro/POC-Terraform/assets/25323854/02e58f46-8b98-442a-9e34-45758e5266b8)
+
 
 
 
