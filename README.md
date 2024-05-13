@@ -35,3 +35,8 @@ Tags
 ![image](https://github.com/gsvimieiro/POC-Terraform/assets/25323854/be6f2e2a-3660-4b32-8228-0bec0140ec5d)
 
 
+Principais comandos Terraform :
+
+
+
+
