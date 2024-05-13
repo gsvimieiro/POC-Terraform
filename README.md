@@ -42,7 +42,14 @@ Principais comandos Terraform ou observações :
 - Digitar o comando terraform -install-autocomplete (ele autocompleta com os principais comandos do terraform no Terminal)
 
 - Como estou utilizando o Provider AWS criar uma conta exclusiva para o Terraform
-    - Ao criar esta conta, crie com acesso "programaático" pois será utilzado o AWS CLI e o terraform utiliza programação declarativa.
+    - Ao criar esta conta, crie com acesso "programático" pois será utilzado o AWS CLI e o terraform utiliza programação declarativa.
+ 
+- terraform init
+    - este comando, quando executado ele baixa os fontes do provider e inicializa o backend
+
+- Recomandável instalar a extensão Hashcorp Terraform (VSCode) pois ele já identa o código corretamente e coloca as cores corretas nos comandos
+
+- Link da página para buscar os comandos para instalação dos recursos - [registry.terraform.io](https://registry.terraform.io/)
 
 
 
