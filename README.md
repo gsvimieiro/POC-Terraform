@@ -66,7 +66,8 @@ Principais comandos Terraform ou observações :
 
 - Terraform Remote Backend
     - Centraliza o arquivo state (coração do Terraform) em um único repositório
-    - Cria-se um bucket no S3
+    - Criar um bucket no S3
+    - Necessário criar uma tabela no dynamoDb
 
 Exemplos arquivos backend :
 
