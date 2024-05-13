@@ -64,6 +64,21 @@ Principais comandos Terraform ou observações :
 - Para variáveis tipo password, boa prática é declarar no arquivo de variables.tf definir um recurso sensitive = True na variável, isso significa que ele irá pedir que digite
     o valor da variável todas as vezes que executar os comandos plan ou apply
 
+- Terraform Remote Backend
+    - Centraliza o arquivo state (coração do Terraform) em um único repositório
+    - Cria-se um bucket no S3
+
+Exemplo arquivo backend :
+
+  terraform {
+  backend "s3" {
+    bucket         = "myorg-terraform-states"
+    key            = "myapp/production/tfstate"
+    region         = "us-east-1"
+    dynamodb_table = "TableName"
+    }
+  }
+
 
 
 
