@@ -51,6 +51,18 @@ Principais comandos Terraform ou observações :
 
 - Link da página para buscar os comandos para instalação dos recursos - [registry.terraform.io](https://registry.terraform.io/)
 
+- O arquivo terraform.tfstate é o coração do Terraform, é este arquivo que irá guardar toda a infraestrutura instalada atualmente no provider (totalmente desaconselhável editar este arquivo)
+
+- O comando terraform state list informa de uma forma simplista o que está atualmente provisionado no provider
+
+- O comando terraform destroy -target nome_completo_do_objeto irá destruir APENAS o objeto e não toda a estrutura do terraform
+
+- Quando está com uma configuração muito extensa, o comando terraform validate irá validar se sua configuração está correta
+
+- Boa prática é criar o arquivo terraform.tfvars (arquivo de variáveis), este arquivo funciona junto com o variables.tf (arquivo de declaração de variáveis)
+
+- 
+
 
 
 
